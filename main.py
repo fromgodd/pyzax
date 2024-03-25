@@ -2,6 +2,19 @@ import os
 import argparse
 from enum import Enum
 
+
+'''
+    TODO:
+    -- ADD BUFFER MODE SUPPORT (-b) argument where contents will be recorded to pre-allocated buf and print
+    -- IMPLEMENT CONFIG FILE SUPPORT where we can specify static arguments, color scheme support and etc
+    -- Read Write check
+    -- Date Time check
+    -- Detailed attributes and separate modular structure for project
+    -- Build with Nuitka
+'''
+
+
+
 VERSION = "v0.1"
 DESCRIPTION_PROMPT = '''
 pyzax - minimalistic replacement for ls written in Python
